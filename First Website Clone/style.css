@@ -1,0 +1,544 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  background-image: url("assets/Images/bg.jpg");
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+body {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+.main .box {
+  height: 100vh;
+  width: 100%;
+  opacity: 0.44;
+  position: absolute;
+  top: 0;
+  background-color: black;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  max-width: 75vw;
+  margin: auto;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  position: relative;
+  z-index: 10;
+}
+
+nav img {
+  width: 155px;
+  color: red;
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  height: 80%;
+  /* width: 60%; */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  /* padding: 150px; */
+  margin-top: 100px 0px 0px;
+  gap: 15px;
+  flex-shrink: 1;
+  text-align: center;
+}
+
+.hero > :first-child {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.hero > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+}
+.hero > :nth-child(3) {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.seperation {
+  height: 11px;
+  background-color: #414040;
+  color: gray;
+}
+
+.btn {
+  color: white;
+  border-radius: 3px;
+  padding: 3px 10px;
+  font-weight: bold;
+  margin: 10px;
+  background-color: rgba(19, 18, 18, 0.573);
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+}
+
+.langBtn {
+  padding: 8px 30px;
+  /* padding: 3px 18px; */
+}
+
+.btn-red {
+  background-color: #e50914;
+  border: 0;
+  color: white;
+  padding: 8px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.main input {
+  padding: 7px 113px 8px 14px;
+  font-size: 20px;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 0 9px;
+  color: white;
+  font-weight: 100;
+}
+
+.btn-red-sm {
+  background-color: red;
+  padding: 8px 15px;
+  /* font-size: ; */
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: white;
+  max-width: 70vw;
+}
+
+.imgSecond {
+  position: relative;
+}
+.imgSec {
+  position: relative;
+}
+
+.imgSec img {
+  max-width: 625px;
+  position: relative;
+  z-index: 10;
+}
+
+.imgSec video {
+  position: absolute;
+  z-index: -10;
+  top: 90px;
+  right: 80px;
+  height: 262px;
+}
+.imgSecond video {
+  position: absolute;
+  z-index: -10;
+  top: 30px;
+  right: 113px;
+  height: 228px;
+}
+
+.first > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.first > div :nth-child(1) {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: "Martel Sans", sans-serif;
+}
+.first > div :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Martel Sans", sans-serif;
+}
+.faq {
+  background: black;
+  color: white;
+}
+
+.faqbox svg {
+  filter: invert(1);
+}
+
+section.first > div :nth-child(2) {
+  font-size: 24px;
+  color: white;
+}
+.faq h2 {
+  text-align: center;
+  font-family: "Martel Sans", sans-serif;
+  font-size: 48px;
+}
+.faqbox:hover {
+  background-color: #414141;
+}
+.faqbox {
+  transition: all 1s ease-out;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  color: white;
+  font-size: 24px;
+  font-family: "Martel Sans", sans-serif;
+
+  padding: 20px;
+  max-width: 70vw;
+  margin: 10px auto;
+}
+
+footer {
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+  padding: 14px;
+  margin-bottom: 40px;
+}
+
+.questions a {
+  color: white;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer a {
+  color: white;
+  font-size: 14px;
+  font-family: "Martel Sans", sans-serif;
+}
+
+.questions {
+  padding: 34px 0px;
+}
+
+.bottomInput {
+  margin: 60px;
+}
+
+.belowText {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px;
+  text-align: center;
+  font-family: "Martel Sans", sans-serif;
+}
+
+.lastRedButton {
+  background-color: #e50914;
+  border: 0px;
+  color: white;
+  padding: 15px 28px;
+  font-size: 25px;
+  font-weight: 700;
+  border-radius: 4px;
+  margin: 0;
+}
+
+.lastInput {
+  padding: 16px 110px 16px 14px;
+  font-size: 20px;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 0 9px;
+  color: white;
+  font-weight: 100;
+}
+.removeElement {
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    /* background-color: lightblue; */
+  }
+
+  nav {
+    display: flex;
+    max-width: 100vw;
+    margin: auto;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+    position: relative;
+    z-index: 10;
+  }
+
+  .btn-red-sm {
+    background-color: #e50914;
+    padding: 8px 15px;
+    margin: 10px 7px;
+    /* margin: 0px  10px  0px 7px ; */
+    /* margin: ; */
+  }
+
+  .hero {
+    height: 80%;
+    /* width: 80vw; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    /* padding: 150px; */
+    margin-top: 100px 0px 0px;
+    gap: 10px;
+    flex-shrink: 1;
+    text-align: center;
+  }
+  .hero > :first-child {
+    gap: 2px;
+    font-weight: 900;
+    font-size: 27px;
+    margin-top: 50px;
+    max-width: 90vw;
+    padding: 0px 30px;
+  }
+  .hero > :nth-child(2) {
+    padding: 0px 30px;
+    max-width: 90vw;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .hero > :nth-child(3) {
+    padding: 0px 30px;
+    max-width: 90vw;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16;
+  }
+  .first {
+    display: flex;
+    /* align-content: center; */
+    flex-direction: column;
+    padding: 50px;
+  }
+  .imgSec img {
+    max-width: 335px;
+    position: relative;
+    z-index: 10;
+  }
+  .imgSec video {
+    position: absolute;
+    z-index: -10;
+    top: 52px;
+    right: 37px;
+    height: 143px;
+  }
+
+  .imgSecond {
+    position: relative;
+    width: 50vw;
+  }
+  .main .box {
+    height: 100%;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    padding: 0;
+  }
+  .main {
+    background-image: url("assets/Images/bg.jpg");
+    background-position: center center;
+    background-size: max(1500px, 100vw);
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+  }
+  .nav-sideButton {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+  }
+  nav img {
+    width: 90px;
+    color: red;
+    position: relative;
+    z-index: 10;
+  }
+  .langBtn {
+    padding: 8px 7px;
+    /* padding: 3px 18px; */
+    margin: 10px 0px;
+  }
+  .main input {
+    padding: 8px 30px 8px 14px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 0 9px;
+    color: white;
+    font-weight: 100;
+  }
+  .btn-red {
+    background-color: #e50914;
+    border: 0;
+    color: white;
+    padding: 13px 20px;
+    font-size: 20px;
+    border-radius: 4px;
+  }
+  .seperation {
+    height: 8px;
+    background-color: #414040;
+    color: gray;
+  }
+  .first > div :nth-child(1) {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Martel Sans", sans-serif;
+    text-align: center;
+  }
+  section.first > div :nth-child(2) {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    gap: 5px;
+  }
+  .faqbox {
+    font-size: 18px;
+    max-width: 76vw;
+  }
+  .faq h2 {
+    text-align: center;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 50px;
+  }
+  .imgSecond {
+    position: relative;
+    width: 88vw;
+  }
+  .imgSecond video {
+    position: absolute;
+    z-index: -10;
+    top: 18px;
+    right: 68px;
+    height: 118px;
+  }
+  /* .lastButtons{
+    display: flex;
+    flex-direction: column;
+
+  } */
+  .lastInput {
+    padding: 13px 35px 13px 35px;
+    max-width: 80vw;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 15px 9px;
+    color: white;
+    font-weight: 100;
+  }
+  .divideColumn {
+    /* margin: 5px; */
+  }
+  .belowText {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px;
+    gap: 0px;
+    text-align: center;
+    font-family: "Martel Sans", sans-serif;
+  }
+  .reverseFirst {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .removeElement {
+    display: none;
+  }
+  /* .a {
+    text-wrap: nowrap;
+    display: none;
+  /* } */
+  .footer-item {
+    padding: 5px;
+    margin-right: 50px;
+    text-wrap: nowrap;
+    font-size: 18px;
+    font-weight: 100;
+    gap: 3px;
+  } 
+   .footer {
+    max-width: 90vw;
+  }
+  footer {
+    max-width: 100vw;
+  } 
+  .questions {
+    padding: 20px 8px;
+    font-weight: 100;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+  }
+}
